@@ -45,7 +45,7 @@ ${
         <div class="card-body">
     <h5 class="card-title time">${deck}</h5>
     <p class="card-text"><i class="fa-solid fa-file-code fa-2x"></i></p>
-    <a href="index.html?id=${
+    <a href="/index.html?id=${
             data.records[i].id
           }" class="btn btn-primary hovered ${disabled}">${name}</a>
 </div>
